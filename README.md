@@ -48,3 +48,5 @@ python -m uvicorn app.main:app --reload
 - `tests/`：API 測試
 
 執行測試：`python -m pip install -r requirements-dev.txt` 後執行 `python -m pytest`。測試使用記憶體 SQLite，不會操作 MySQL 資料。
+
+# my-fastapi
